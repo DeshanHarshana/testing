@@ -1,0 +1,25 @@
+git config --global user.name "YOUR_USERNAME"
+git config --global user.email "im_satoshi@musk.com"
+
+git init- initialize
+git add example.txt
+git add . = add all
+
+git status - check state
+
+ git commit -m "First commit"# The message in the " " is given so that the other users can read the message and see what changes you made
+
+
+git reset HEAD~1# Remove the most recent commit# Commit again!
+
+git branch -M main or git branch -M mypro
+
+git remote add origin https://github.com/DeshanHarshana/testing.git
+
+git push -u origin mypro - all commit are go to my pro
+
+git clone <remotelink> = copy all to local
+
+git pull <pull all from git>
+
+.gitignore use to ignore file
